@@ -8,8 +8,6 @@
 
 ![Kernel Ninjas Team Photo](./images/team.PNG)
 
-> Replace the image path with your actual team photo.
-
 ## Overview
 This project is an aerial imagery aircraft detection system built for the **inaugural UNISA Hackathon**. The solution uses a **YOLOv8** object detection model trained on the **DOTA v1.0** dataset to detect planes in aerial images. The application is deployed using **Hugging Face Spaces** as the backend and presented via a simple web interface.
 
