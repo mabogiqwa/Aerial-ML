@@ -16,6 +16,9 @@ Hackathon reference: UNISA hosts first-ever Hackathon to ignite student learning
 ## Demo
 The web UI embeds the deployed Hugging Face Space and allows users to upload aerial imagery for inference.
 
+## Website
+Live demo: [https://mabogiqwa.github.io/Aerial-ML/](https://mabogiqwa.github.io/Aerial-ML/)
+
 ## Model & Training
 - **Architecture:** YOLOv8
 - **Dataset:** DOTA v1.0 (aerial object detection dataset)
