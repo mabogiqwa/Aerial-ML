@@ -37,7 +37,7 @@ The model was initially trained in Google Colab using TPUs for faster experiment
   1. User uploads an aerial image via the web UI.
   2. The request is forwarded to the Hugging Face Space backend.
   3. YOLOv8 performs object detection.
-  4. The annotated result is returned to the user.
+  4. The annotated result is returned to the user along with the amount of each object class is detected in the image.
 
 ## Repository Structure (example)
 ```
