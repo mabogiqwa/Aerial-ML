@@ -1,0 +1,12 @@
+# Path to dataset root
+path: C:/Users/Mabo Giqwa/Documents/ML-Aerial/dataset
+
+# Relative paths from 'path'
+train: images/train
+val: images/val
+
+# Number of classes
+nc: 5
+
+# Class names
+names: ['small-vehicle', 'large-vehicle', 'ship', 'plane', 'harbor']
