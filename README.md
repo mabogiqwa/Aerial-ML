@@ -38,6 +38,15 @@ The model was initially trained in Google Colab using TPUs for faster experiment
 ## Model performance
 ![F1 score](./model-results/f1_score_evaluation.png)
 
+## Folder structure for training YOLO model
+dataset/
+├── images/
+│   ├── training/    # Training images
+│   └── val/         # Validation images
+└── labels/
+    ├── training/    # Training labels (YOLO format)
+    └── val/         # Validation labels (YOLO format)
+
 ## Training
 To reproduce training:
 - Prepare the **DOTA v1.0** dataset in YOLO format.
