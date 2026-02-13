@@ -39,6 +39,7 @@ The model was initially trained in Google Colab using TPUs for faster experiment
 ![F1 score](./model-results/f1_score_evaluation.png)
 
 ## Folder structure for training YOLO model
+```text
 dataset/
 ├── images/
 │   ├── training/    # Training images
@@ -46,6 +47,7 @@ dataset/
 └── labels/
     ├── training/    # Training labels (YOLO format)
     └── val/         # Validation labels (YOLO format)
+```
 
 ## Training
 To reproduce training:
